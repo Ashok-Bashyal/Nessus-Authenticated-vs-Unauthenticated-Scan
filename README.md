@@ -11,7 +11,7 @@ This project demonstrates how to perform an **Unauthenticated Vulnerability Scan
 | Vulnerability Scanner | Tenable Nessus |
 | Cloud Provider | Microsoft Azure |
 | Target | Windows Virtual Machine |
-| Scan Type | Basic Network Scan (Unauthenticated) |
+| Scan Type | Basic Network Scan (Unauthenticated) and (Authenticated)|
 
 ---
 
@@ -172,8 +172,13 @@ Because Nessus does **not** authenticate to the operating system, it **cannot** 
 
 These require an **Authenticated Scan**.
 
----
+For Authenticated Scan, your configuration is the same, but you have to add the credentials of the Windows Account
+<img width="706" height="570" alt="image" src="https://github.com/user-attachments/assets/d8493864-cf20-43f5-a9cb-2e431e841bfc" />
+Now, when the scan is complete 
+You can see more vulnerabilities since the scanner can now log in to the target system and scan everything
+With this new scan, you can again download the report and see the list of all vulnerabilities and their remediation steps. 
+<img width="2121" height="792" alt="image" src="https://github.com/user-attachments/assets/7e120b60-35c9-42c0-a801-128aeda84aa9" />
+<img width="2038" height="677" alt="image" src="https://github.com/user-attachments/assets/7b0a5391-aa93-47fc-b28f-b921715cf625" />
+<img width="1185" height="746" alt="image" src="https://github.com/user-attachments/assets/66752761-6a6b-458c-8498-4cf98227494f" />
 
-# Next Guide
 
-The next project demonstrates how to perform an **Authenticated Nessus Scan**, allowing Nessus to log into the target system and identify significantly more vulnerabilities, including missing patches and local security configuration issues.

@@ -266,6 +266,10 @@ Reports include:
 
 ---
 
+> **Note**
+> All of these steps can be used to scan for vulnerability on **Linux System** not just **Windows Systems**.
+
+---
 # Unauthenticated vs. Authenticated Scans
 
 | Feature | Unauthenticated | Authenticated |

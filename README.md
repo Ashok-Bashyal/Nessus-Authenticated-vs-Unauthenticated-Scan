@@ -135,7 +135,7 @@ For the complete remediation guidance, open the associated **Plugin ID**.
 
 <img width="1523" height="681" alt="Plugin Details" src="https://github.com/user-attachments/assets/03f4ce88-df9d-49a8-9854-4987e39a54bc" />
 
-### Example Vulnerability
+### Example Vulnerability and it's remediation
 
 
 <img width="1195" height="885" alt="SSL Certificate Cannot Be Trusted" src="https://github.com/user-attachments/assets/2fdd9873-208e-4129-a002-4df6155534bd" />
